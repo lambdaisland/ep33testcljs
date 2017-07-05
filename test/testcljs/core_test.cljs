@@ -1,6 +1,6 @@
 (ns testcljs.core-test
   (:require [testcljs.core :refer [mouse]]
-            [clojure.test :refer [deftest testing is are async run-tests]]))
+            [clojure.test :refer [deftest testing is are async]]))
 
 (deftest mouse-test
   (testing "it has a cute tail"
@@ -8,8 +8,4 @@
       0 "<:3)"
       1 "<:3)~"
       2 "<:3)~~"
-      10 "<:3)~~~~~~~~~~")))
-
-(comment
-  (mouse-test)
-  (run-tests))
+      10 "<:3)~~~~~~~~~~!")))
