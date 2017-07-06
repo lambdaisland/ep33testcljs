@@ -3,7 +3,8 @@
                  [org.clojure/clojurescript "1.9.671"]]
 
   :plugins [[lein-figwheel "0.5.11"]
-            [lein-cljsbuild "1.1.6"]]
+            [lein-cljsbuild "1.1.6"]
+            [lein-doo "0.1.7"]]
 
   :cljsbuild {:builds
               [{:id "dev"
